@@ -38,6 +38,14 @@ def mapper():
 #for line in top_n:
 #    writer.writerow(line)
 
+#Another Alternative Solution :)MAX
+#    top_n = [[len(line[4]),line] for line in reader] 
+
+#    top_n.sort()
+    
+#    for line in top_n[len(top_n)-10:]:
+#        writer.writerow(line[1])
+
 
 test_text = """\"\"\t\"\"\t\"\"\t\"\"\t\"333\"\t\"\"
 \"\"\t\"\"\t\"\"\t\"\"\t\"88888888\"\t\"\"
