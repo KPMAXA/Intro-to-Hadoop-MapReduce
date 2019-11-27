@@ -35,7 +35,16 @@ def mapper():
             if body.endswith('.') or body.endswith('!') or body.endswith('?'):
                 writer.writerow(line)
 
-
+#Alternative Solution :) MAX
+#        countAux = line[4].count(".") + line[4].count("?") + line[4].count("!")
+#        if countAux == 0:
+#
+#            writer.writerow(line)
+#        
+#        elif countAux == 1 and line[4][-1] in (".!?"):
+#
+#            writer.writerow(line)
+                
 
 test_text = """\"\"\t\"\"\t\"\"\t\"\"\t\"This is one sentence\"\t\"\"
 \"\"\t\"\"\t\"\"\t\"\"\t\"Also one sentence!\"\t\"\"
